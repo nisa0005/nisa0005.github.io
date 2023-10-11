@@ -1,0 +1,10 @@
+/* Changes font size and font family */
+body {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Adds background colour to header and footer */
+header, footer {
+    background-color: rgb(210, 210, 255)
+}
