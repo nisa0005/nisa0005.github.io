@@ -1,20 +1,14 @@
-/* padding left 0 for unordered fact list!!!!!!! */
+/* Sets background color and font family for body */
+body {
+    background-color: rgb(5, 0, 18);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-/* sets background colour */
-/* html {
-    font-size: 18px;
-} */
-
-/* adds width and centers all content in wrapper div*/
+/* adds width and centers. adds background colour */
 .wrapper {
     width: 900px;
     margin: auto;
     background-color: rgb(213, 213, 213);
-}
-
-body {
-    background-color: rgb(5, 0, 18);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* places h1 on top of image, changes font colour & size, centers text */
@@ -34,16 +28,16 @@ body {
     height: 300px;
 }
 
-/* displays nav list items horizontally, spaces them out, sets font size*/
+/* displays nav list items horizontally, spaces them out, sets font size */
 nav li {
     display: inline-block;
     margin-bottom: 40px;
     margin-top: 10px;
+    /* creates lines dividing list items */
     border-right: 1px solid black;
-    /* border-right: 1 px solid black; */
 }
 
-/* creates padding between nav links and article below, removes underlines from links */
+/* creates padding between nav links and article below, removes underlines from links, changes font colour and size */
 nav a {
     padding-left: 112px;
     padding-right: 113px;
@@ -52,12 +46,14 @@ nav a {
     font-size: 25px;
 }
 
+/* sets font size, weight and padding for articles header */
 article h1 {
     font-size: 30px;
     font-weight: bold;
     padding-left: 10px;
 }
 
+/* brings image to the left of the text */
 .float img {
     width: 250px;
     height: auto;
@@ -65,12 +61,14 @@ article h1 {
     padding: 10px;
 }
 
+/* sets padding, font size and line height for p tag */
 p {
     padding: 10px;
     font-size: 16px;
     line-height: 23px ;
 }
 
+/* sets padding, weight and font size for h2 */
 h2 {
     font-size: 22px;
     font-weight: bold;
@@ -79,26 +77,14 @@ h2 {
     padding-bottom: 10px;;
 }
 
-/* /* .list {
-    padding-left: 10px;
-    color: green
-    line-height: 23px ;
-    list-style: circle;
-    margin:auto;
-    /* list-style-type: square; */
-
-/* .list ul {
-    list-style: circle;
-    margin:auto;
-}  */
-
+/* adds solid circles for bullet points, adds padding and line height */
 .list ul {
     padding-left: 30px;
     list-style-type: disc;
     line-height: 23px;
 }
 
-
+/* Adds padding, sets font size and font weight */
 h3{
     padding-top: 30px;
     padding-left: 10px;
@@ -107,28 +93,29 @@ h3{
     font-weight: bold;
 }
 
+/* adds padding to form */
 form div {
     padding: 10px
 }
 
+/* increases width of text box, pushes text box to its own separate line */
 input, textarea {
     width: 600px;
     display: block;
 }
 
+/* increases height of larger text box */
 textarea {
     height: 100px;
 }
 
-/* label {
-    line-height: 10px;
-} */
-
+/* Spaces out radio selection, displays them all on the same line */
 .radio input {
     width: 40px;
     display: inline;
 }
 
+/* creates boarder for form */
 .box {
     border: 3px solid black;
     width: 850px;
@@ -136,16 +123,19 @@ textarea {
     margin: auto;
 }
 
+/* sets font size and padding for h4 */
 h4 {
     font-size: 18px;
     padding-bottom: 10px;
     
 }
 
+/* makes button appear larger and more spaced out */
 button {
     padding: 10px;
 }
 
+/* aligns footer to the right, adds padding */
 footer {
     text-align: right;
     padding: 20px 0px;
