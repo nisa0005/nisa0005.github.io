@@ -1,15 +1,20 @@
 /* padding left 0 for unordered fact list!!!!!!! */
 
 /* sets background colour */
-body {
-    background-color: rgb(5, 0, 18);
-}
+/* html {
+    font-size: 18px;
+} */
 
 /* adds width and centers all content in wrapper div*/
 .wrapper {
-    width: 1000px;
+    width: 900px;
     margin: auto;
     background-color: rgb(213, 213, 213);
+}
+
+body {
+    background-color: rgb(5, 0, 18);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* places h1 on top of image, changes font colour & size, centers text */
@@ -17,14 +22,47 @@ body {
     color: rgb(255, 255, 255);
     font-size: 75px;
     position: absolute;
-    width: 1000px;
+    width: 900px;
     top: 115px;
     text-align: center;
 }
 
 /* crops image */
-img {
+.container img {
     object-fit: cover;
-    width: 1000px;
+    width: 900px;
     height: 300px;
+}
+
+/* displays nav list items horizontally, spaces them out, sets font size*/
+nav li {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+/* creates padding between nav links and article below, removes underlines from links */
+nav a {
+    padding-left: 113px;
+    padding-right: 113px;
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+
+article h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.float img {
+    width: 250px;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
 }
