@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midterm Assignment - nisa0005</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    <!-- put proper comments!!!!! -->
     <!-- have to set wrapper dimensions in css later -->
     <div class="wrapper">
         <!-- header with html image and text, need to use css to overlay text on top of img later -->
         <header>
+            <h1> The Stars </h1>
             <!-- need to resize img... -->
-            <img src="images/stars.jpg" alt="Stars" title="Stars">
+            <img src="images/stars.jpg" alt="Stars" title="Stars" width="631" length="455">
             <!-- heading text.. recolour with css and change positioning -->
-            <h1> Lone Stars </h1>
         </header>
 
         <!-- home, story and contact nav.. need to reformat on css later.. -->
@@ -24,6 +27,59 @@
                 <li>Contact</li>
             </ul>
         </nav>
+
+        <article>
+            <!-- maybe put h2 in header..? -->
+            <h2> Life of a Star </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt obcaecati dignissimos facilis est sequi aut. Nisi officiis labore pariatur unde, amet eligendi ex? Ad perspiciatis aliquam eos officiis magni? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur quo expedita magnam exercitationem a totam in, ipsa quia voluptate assumenda est dolorem cum. Commodi, reiciendis? Amet exercitationem corrupti perspiciatis dolorem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas explicabo, et dolore dolorem quae natus fugit assumenda neque voluptatum numquam nobis amet modi, aperiam nihil quia molestiae tenetur asperiores iste! </p>
+        </article>
+
+        <article>
+            <h3> Facts about Stars </h3>
+            <ul>
+                <li> Enim magni dolores error necessitatibus fuga sapiente atque vero nihil </li>
+                <li> Aut impedit est expedita error, suscipit magni libero tempora voluptatem, ratione similique </li>
+                <li> Iure animi aut nostrum impedit, rem a repudiandae placeat, architecto </li>
+                <li> Velit tempore distinctio facere recusandae harum! Animi alias pariatur </li>
+            </ul>
+        </article>
+
+        <!-- maybe change from get, maybe add required for name and email and message  -->
+        <article>
+            <h1>Contact to learn more</h1>
+            <form action="index.html" method="get">
+                <div>
+                    <label for="name">Your Name</label>
+                    <input id="name" type="text" name="name">
+                </div>
+                <div>
+                    <label for="email">Your Email</label>
+                    <input id="email" type="email" name="email">                
+                </div>
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div>
+                    <h3> Would you like to visit the stars? </h3>
+                    <label for="yes">I would</label>
+                    <input type="radio" id="yes" name="visitstar">
+                    <label for="unsure">I'm not sure</label>
+                    <input type="radio" id="unsure" name="visitstar">
+                    <label for="no">I would not</label>
+                    <input type="radio" id="no" name="visitstar">
+                </div>
+                <div>
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+
+        </article>
+
+        <!-- align to right in css -->
+        <footer> 
+            <p> © The Stars </p>
+        </footer>
     </div>
 
     <!-- need to resize image, overlay text on top -->
