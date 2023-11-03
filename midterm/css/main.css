@@ -1,5 +1,16 @@
 /* padding left 0 for unordered fact list!!!!!!! */
 
+body {
+    background-color: rgb(5, 0, 18);
+}
+
 .wrapper {
     /* adds width and centers */
+    width: 500px;
+    margin: auto;
+    background-color: rgb(213, 213, 213);
+}
+
+h1 {
+    
 }
