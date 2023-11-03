@@ -95,12 +95,13 @@ h3{
 
 /* adds padding to form */
 form div {
-    padding: 10px
+    padding: 10px;
+    line-height: 30px;
 }
 
 /* increases width of text box, pushes text box to its own separate line */
 input, textarea {
-    width: 600px;
+    width: 80%;
     display: block;
 }
 
