@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project - nisa0005</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    
     <header>
         <nav>
             <!-- add logo..! -->
@@ -48,31 +51,41 @@
             <!-- probably include image..? acruallt i dont think so -->
             <h1> Digital Transformation </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt animi ea est modi ratione blanditiis facere asperiores culpa, cum optio unde earum et debitis nostrum officiis. Perspiciatis officiis omnis rem? </p>
-            <p> Digital Plans </p>
+            <form action="index.html" method="post">
+                <button type="button">Digital Plans</button>
+            </form>
         </section>
 
         <section>
             <h1> Marketing </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, iure eum. Natus possimus vero a aperiam sequi impedit fugiat. Doloribus est quis quas quasi vero earum quidem fugit id saepe. </p>
-            <p> Marketing Plans </p>
+            <form action="index.html" method="post">
+                <button type="button"> Marketing Plans </button>
+            </form>
         </section>
 
         <section>
             <h1> Video Production </h1>
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur explicabo itaque adipisci nulla et officia pariatur beatae quis earum quasi mollitia minus dolore id, cupiditate excepturi error quia veritatis perspiciatis! </p>
-            <p> Video Plans </p>
+            <form action="index.html" method="post">
+                <button type="button">Video Plans</button>
+            </form>
         </section>
 
         <section>
             <h1> Web Development </h1>
             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, alias enim minima laudantium in libero iusto necessitatibus illo ad veritatis aliquam labore est aut fuga dolore aperiam odit? Rem, corporis. </p>
-            <p> Web Plans </p>
+            <form action="index.html" method="post">
+                <button type="button">Web Plans</button>
+            </form>
         </section>
 
         <section>
             <h1> Print </h1>
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel minus voluptatibus est ea. Aspernatur mollitia vero accusantium, facilis ad fugiat officia nisi enim! Non, nulla. Magnam animi labore maxime. Voluptates. </p>
-            <p> Print Plans </p>
+            <form action="index.html" method="post">
+                <button type="button"> Print Plans </button>
+            </form>
         </section>
 
     </article>
@@ -80,7 +93,9 @@
     <article>
         <h1> Our Vision </h1>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut delectus ut ad dolor voluptatibus, soluta doloribus blanditiis error sint sunt officiis tempore ex libero explicabo perspiciatis deleniti repudiandae? Sed, amet! </p>
-        <p> Learn More </p>
+        <form action="index.html" method="post">
+            <button type="button">Learn More</button>
+        </form>
     </article>
 
     <article>
@@ -103,20 +118,51 @@
 
     <article>
         <h1> Contact Us </h1>
-
-        <section>
-            <h1> Send us a message </h1>
-            <form action="index.html" method="get">
-                <label for="name"> Full Name </label>
-                <input id="name" type="text" name="name">
-                <!-- maybe add divs. -->
-                <label for="email"> Email</label>
-                <input id="email" type="email" name="email">
-                <label for="message"> Message </label>
-                <textarea id="message" name="message"></textarea>
-            </form>
-        </section>
+        <h2> Send us a message </h2>
+        <form action="index.html" method="get">
+            <label for="name"> Full Name </label>
+            <input id="name" type="text" name="name">
+            <!-- maybe add divs. -->
+            <label for="email"> Email</label>
+            <input id="email" type="email" name="email">
+            <label for="message"> Message </label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit"> Send </button>
+        </form>
     </article>
+
+    <article>
+        <table>
+            <caption><h1>Hours of operation</h1></caption>
+            <thead>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <article>
+        <h1>Location</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944455156963!2d-75.75711438255617!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701406105167!5m2!1sen!2sca" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </article>
+
+    <footer>
+        <p>© Copyright Three Star Media, 2020</p>
+        <p>All images are taken from <a href="#">Unsplash</a></p>
+    </footer>
+
 
 </body>
 </html>
