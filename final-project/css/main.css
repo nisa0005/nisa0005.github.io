@@ -176,8 +176,52 @@ form {
     background-color: #ffe6ac;
 }
 
+/* image dimensions */
 .about-us img {
     margin: 15px;
     height: 95%;
     width: 95%;
+}
+
+/* about us heading */
+.about-us h1 {
+    margin: 15px;
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+/* formats text */
+.about-us p {
+    margin: 15px;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+/* our services */
+
+
+
+
+/* creates margin for entire wrapper */
+.wrapper {
+    margin-left: 15px;
+}
+
+/* targets only "our services" heading */
+.wrapper h1:nth-child(1){
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding-top: 45px;
+}
+
+.card img {
+    height: 98%;
+    width: 98%;
 }
