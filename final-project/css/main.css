@@ -52,14 +52,6 @@ header a{
     text-decoration: none;
 }
 
-/* text turns black, background turns orange on hover */
-li:hover {
-    background-color: #c78c06;
-    a {
-        color: #222;
-    }
-}
-
 /* colours links */
 a:link {
     color: #c78c06
@@ -67,6 +59,12 @@ a:link {
 
 a:visited {
     color: #c78c06;
+}
+
+/* text turns black, background turns orange on hover */
+li:hover, a:hover {
+    background-color: #c78c06;
+    color: #222;
 }
 
 /* sets search bar size */
@@ -432,7 +430,6 @@ aside form {
 .contact-us form {
     display: flex;
     flex-direction: column;
-    align-items: left;
     width: 100%;
 }
 
