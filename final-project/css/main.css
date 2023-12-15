@@ -401,6 +401,7 @@ aside form {
 
 
 
+/* formats contact us layout */
 .contact-us {
     margin-left: 15px;
 }
@@ -421,11 +422,13 @@ aside form {
     display:block;
 }
 
+/* label is on a new line */
 .contact-us label{
     display: block;
     padding-bottom: 10px;
 }
 
+/* text boxes on new lines */
 .contact-us form {
     display: flex;
     flex-direction: column;
@@ -433,6 +436,7 @@ aside form {
     width: 100%;
 }
 
+/* formatting and dimensions */
 .contact-us div {
     padding-top: 20px;
 }
@@ -446,6 +450,7 @@ textarea {
     width: 98%;
 }
 
+/* styling button */
 .contact-us button {
     padding: 5px;
     background-color: #222;
@@ -453,6 +458,7 @@ textarea {
     font-size: larger;
 }
 
+/* formatting table heading to the left */
 table h1{
     font-weight: 600;
     font-size: 30px;
@@ -461,21 +467,25 @@ table h1{
     padding-bottom: 15px;
 }
 
+/* add borders */
 table {
     margin: 15px;
     border: 1px solid;
     width:95%;
 }
 
+/* add borders */
 thead, tbody, td, th {
     border: 1px solid;
     height: 30px;
 }
 
+/* background colour for head */
 thead {
     background-color: #ffe6ac;
 }
 
+/* formatting layout */
 td, th {
     padding-top: 12px;
 }
@@ -490,6 +500,7 @@ td {
     padding-left: 15px;
 }
 
+/* adjusting map layout */
 iframe {
     margin: 15px;
     width: 95%;
@@ -503,7 +514,7 @@ iframe {
 
 
 
-
+/* styling footer */
 footer {
     background-color: #222;
     color: #c78c06;
@@ -515,3 +526,8 @@ footer p {
     padding: 15px;
 }
 
+
+
+
+
+/* desktop version */
